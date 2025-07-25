@@ -82,6 +82,8 @@ python -m utils.retrieval \
   --caption_key caption \
   --checkpoint /mnt/hanhc/CyCLIP/logs/NCU_CC3M/checkpoints/epoch_5.pt \
 ```
+## Checkpoints by NCU
+You can find the robustly fine-tuned checkpoints here (coming soon). And we also provide pre-trained checkpoints for convenience.
 
 ## Acknowledgements
 Some portions of the code in this repository are adaptations from the following repositories: [CyCLIP](https://github.com/goel-shashank/CyCLIP/tree/main) and [LaCLIP](https://github.com/LijieFan/LaCLIP).
