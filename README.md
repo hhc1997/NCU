@@ -1,4 +1,5 @@
 This repository contains the official PyTorch implementation of the following paper:
+<h1 align="center"><img src="intro.pdf" width="75%"></h1>
 
 > **Unlearning the Noisy Correspondence Makes CLIP More Robust**<br>
 > Haochen Han, Alex Jinpeng Wang, Peijun Ye, Fangming Liu.<br>
