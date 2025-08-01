@@ -1,4 +1,4 @@
-<img width="671" height="397" alt="image" src="https://github.com/user-attachments/assets/a5f85f28-de02-4db8-b5c6-6058a4233fd6" />This repository contains the official PyTorch implementation of the paper: Unlearning the Noisy Correspondence Makes CLIP More Robust.
+This repository contains the official PyTorch implementation of the paper: Unlearning the Noisy Correspondence Makes CLIP More Robust.
 
 ## Overview
 <h1 align="center"><img src="Intro.png" width="75%"></h1>
