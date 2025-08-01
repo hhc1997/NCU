@@ -1,4 +1,4 @@
-This repository contains the official PyTorch implementation of the paper: Unlearning the Noisy Correspondence Makes CLIP More Robust.
+<img width="671" height="397" alt="image" src="https://github.com/user-attachments/assets/a5f85f28-de02-4db8-b5c6-6058a4233fd6" />This repository contains the official PyTorch implementation of the paper: Unlearning the Noisy Correspondence Makes CLIP More Robust.
 
 ## Overview
 <h1 align="center"><img src="Intro.png" width="75%"></h1>
@@ -66,11 +66,11 @@ python -m src.main \
 python -m src.main \
   --name eval_NCU_EuroSAT \
   --eval_data_type EuroSAT \
-  --eval_test_data_dir /mnt/hanhc/CyCLIP/data/EuroSAT/test \
+  --eval_test_data_dir /mnt/hanhc/NCU/data/EuroSAT/test \
   --batch_size 512 \
   --device_ids 1 \
   --num_workers 4 \
-  --checkpoint /mnt/hanhc/CyCLIP/logs/NCU_CC3M/checkpoints/epoch_5.pt \
+  --checkpoint /mnt/hanhc/NCU/logs/NCU_CC3M/checkpoints/epoch_5.pt \
   --distributed
 ```
 ### Cross-modal Retrieval
@@ -80,7 +80,7 @@ python -m utils.retrieval \
   --input_file data/Flickr30K/test/flickr30k.csv \
   --image_key image \
   --caption_key caption \
-  --checkpoint /mnt/hanhc/CyCLIP/logs/NCU_CC3M/checkpoints/epoch_5.pt \
+  --checkpoint /mnt/hanhc/NCU/logs/NCU_CC3M/checkpoints/epoch_5.pt \
 ```
 ## Checkpoints by NCU
 You can find the robustly fine-tuned checkpoints here (coming soon). And we also provide pre-trained checkpoints for convenience.
